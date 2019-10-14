@@ -1,0 +1,303 @@
+*{
+    margin:0;
+    padding:0;
+}
+.bloc{
+     
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 77px;
+    
+
+}
+li{
+    margin-right: 50px;
+}
+.liste{
+    
+  
+    display: flex;
+ /* width: 50px;/  */
+flex-grow:2; 
+list-style: none ;
+font-size: 20px;
+text-align: left;
+padding: 20px;
+margin-left:0;
+/* margin-right: 30%; */
+border: 1px solid rgb(238, 234, 234);
+font-family: sans-serif
+}
+li:hover{
+    font-weight: bold
+}
+#pic{
+    width: 160px;
+    padding: 10px 55px;
+    border: 1px solid rgb(238, 234, 234);
+}
+.boutton {
+    display: flex;
+    width: 25%;
+}
+.boutton :nth-child(1){
+
+display: flex;
+justify-content: center;
+width: 50%;
+background: white;
+color: blue;
+font-size: 20px;
+border: 1px solid rgb(238, 234, 234);
+}
+
+.boutton :nth-child(2)
+{
+    font-weight: bolder;
+    width: 50%;
+    background: white;
+text-align: center;
+color: black;
+font-size: 20px;
+border: 1px solid rgb(238, 234, 234);
+}
+
+.boutton :nth-child(1) :hover
+{
+    background: blue;
+color: white;
+}
+.boutton :nth-child(2) :hover
+{
+    background: black;
+color: white;
+}
+main
+{background: rgb(207, 156, 165 );
+width: 100%;
+height: 550px;
+ }
+ main{
+    display: flex;
+    justify-content: space-around
+}
+video
+{justify-content:top;
+
+  
+}
+.text
+{
+   
+    
+    justify-content: center;
+    display: flex;
+
+    flex-direction: column;
+
+}
+.titre{
+    display: flex
+}
+.white{
+font-size: 200%; 
+color: aliceblue;
+
+}
+.black
+{
+    font-size: 200%;
+    justify-content: flex-start;
+}
+.bot{
+    background-color: white;
+    width: 43%;
+    height: 10%;
+    border-radius: 5px;
+    border: none;
+    font-size: 94%;
+    font-weight: bold;
+}
+header
+{
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+.bloc1{
+
+   height: 300px; 
+   background: rgb(254, 210, 75 );
+   justify-items: center;
+
+}
+.bloc2{
+   
+   height: 300px; 
+   background: rgb(80, 194, 160);
+   justify-items: center;
+   
+} 
+.bloc3{
+
+   height: 300px; 
+   background: rgb(62,170, 243);
+   justify-items: center;
+}
+.bloc1 h6
+{
+    width: 75%;
+font-size: 20px;
+text-align:left;
+color: antiquewhite;
+margin: 20px;
+font-family: sans-serif;
+margin-top: 40px;
+
+}
+.bloc2 h6
+{
+    width: 75%;
+    font-size: 20px;
+    text-align:left;
+    color: antiquewhite;
+    margin: 20px;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+.bloc3 h6{
+    width: 75%;
+    font-size: 20px;
+    text-align:left;
+    color: antiquewhite;
+    margin: 20px;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+.bloc1 p
+{
+    width: 75%;
+text-align:left;
+margin: 20px;
+font-family: sans-serif;
+
+}
+.bloc2 p
+{
+    width: 75%;
+    text-align:left;
+    margin: 20px;
+    font-family: sans-serif;
+}
+.bloc3 p
+{
+    width: 75%;
+    text-align:left;
+    margin: 20px;
+    font-family: sans-serif;
+}
+.bloc1 button
+{
+    background: rgb(254, 210, 75 );
+    display: flex;
+    width: 150px;
+    border: 1px solid white;
+    padding: 19px;
+    margin-left: 52px;
+    font-weight: bold;
+    
+}
+.bloc2 button
+{
+     
+    background: rgb(80, 194, 160);
+    display: flex;
+    width: 150px;
+    border: 1px solid white;
+    padding: 19px;
+    margin-left: 52px;
+    font-weight: bold;
+}
+.bloc3 button
+{
+    background: rgb(62,170, 243);
+    display: flex;
+    width: 150px;
+    border: 1px solid white;
+    padding: 17px;
+    margin: 49px;
+    font-weight: bold;
+}
+.logo
+{ display: flex;
+    margin-top: 4%;
+    justify-content: space-around;
+    
+
+}
+.imagebloc{
+    width: 12%;
+    height: 12%;
+}
+.logo p
+{
+    color: rgb(215 ,222 ,230);
+    font-size: 20px;
+      width: 10%;
+      justify-items: center;
+      margin-top: 15px;
+      margin-left: 26px;
+
+}
+.pico{
+    display: flex;
+    width: 100%;
+    justify-content: space-around; 
+}
+.image1{
+    height: 100%;
+    width: 100%;
+}
+.pico div{
+    width: 25%;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    background: rgb(232, 231,229);
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 130px;
+}
+.greybloc
+{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5px
+}
+.fin{
+    display: flex;
+    background: rgb(42,45,44);
+    width: 100%;
+    color: white;
+    height: 200px;
+    justify-content: space-around;
+    padding-top: 66px;
+    font-size: 15px;
+}
+.fin h1{
+    font-size: 14px;
+    color: #c7bfbf;
+}
+.listo1
+{
+    display: flex;
+    flex-direction: column;
+    list-style: none ;
+
+}
